@@ -1,0 +1,10 @@
+{
+  "name": "projeto-final-mvc-react",
+  "version": "1.0.0",
+  "description": "Projeto final MVC - Em react...",
+  "main": "index.js",
+  "repository": "https://github.com/HotLava03/projeto-final-mvc-react",
+  "author": "HotLava03",
+  "license": "Apache 2.0",
+  "private": false
+}
