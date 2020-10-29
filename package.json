@@ -14,6 +14,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "mysql": "^2.18.1",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -21,29 +22,21 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
-    "@types/node": "^12.12.14",
-    "@types/react": "^16.9.14",
-    "@types/react-virtualized-auto-sizer": "^1.0.0",
-    "@types/react-window": "^1.8.1",
-    "@typescript-eslint/eslint-plugin": "^2.23.0",
-    "@typescript-eslint/parser": "^2.23.0",
     "eslint": "^7.10.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-config-standard-react": "^9.2.0",
-    "eslint-config-standard-with-typescript": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "eslint-plugin-standard": "^4.0.1",
-    "typescript": "^4.0.3"
+    "eslint-plugin-standard": "^4.0.1"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .js,.ts,.tsx --ignore-pattern *.d.ts && tsc --noEmit"
+    "lint": "eslint . --ext .js --noEmit"
   },
   "eslintConfig": {
     "extends": "react-app"
